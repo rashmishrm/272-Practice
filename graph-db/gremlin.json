@@ -1,0 +1,3 @@
+{
+  "gremlin": "graph.traversal().V().hasLabel('person').has('name', 'Alex').outE('updates').inV();"
+}
